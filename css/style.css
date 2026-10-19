@@ -35,7 +35,7 @@ h2{font-size:clamp(26px,4vw,36px);margin:0 0 12px;color:var(--sea)}
 footer{background:#0b3540;color:#d7e4e7;padding:36px 0;font-size:15px}
 footer a{color:#fff}footer .wrap{display:grid;gap:10px}
 .prose{max-width:780px}.prose h2{margin-top:32px}
-@media (max-width:640px){nav a{margin:0 10px 0 0;font-size:14px;white-space:nowrap}header.top .wrap{padding-top:8px;padding-bottom:8px}.hero{padding:48px 0 64px}section{padding:48px 0}}
+@media (max-width:640px){nav{display:flex;flex-wrap:wrap;gap:4px 12px}nav a{margin:0;font-size:14px;white-space:nowrap}header.top .wrap{padding-top:8px;padding-bottom:8px}.hero{padding:48px 0 64px}section{padding:48px 0}}
 form label{display:block;margin:10px 0;font-weight:600;font-size:15px}
 form input:not([type=checkbox]),form select,form textarea{display:block;width:100%;margin-top:4px;padding:11px 12px;border:1px solid #c9d6da;border-radius:10px;font:inherit;font-weight:400;background:#fff}
 form .check{font-weight:400;display:flex;gap:8px;align-items:flex-start}form .check input{margin-top:5px}
