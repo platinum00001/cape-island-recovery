@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://platinum00001.github.io/cape-island-recovery/sitemap.xml
